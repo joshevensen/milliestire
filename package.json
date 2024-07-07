@@ -8,7 +8,7 @@
     "format": "npx prisma format",
     "push": "npx prisma db push --force-reset",
     "studio": "npx prisma studio",
-    "build": "next build",
+    "build": "npm run generate && npx prisma db push && next build",
     "start": "next start",
     "lint": "next lint"
   },
