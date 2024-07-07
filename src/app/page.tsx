@@ -66,7 +66,7 @@ export default async function Home() {
       <main className="max-w-3xl mx-auto space-y-4">
         <p>
           Mildred (Millie) G. Stire peacefully passed away, at the age of 96, at
-          her home where she resided with her daughter Cindy and granddaughter
+          her home where she resided with her daughter Cindy, granddaughter
           Kristen and Kristen's partner Josh in Converse, Texas on June 30,
           2024.
         </p>
