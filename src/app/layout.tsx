@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Caveat, Dekko, Handlee, Indie_Flower } from "next/font/google";
+
+const font = Dekko({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Millie Stire",
@@ -13,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="w-full min-h-vh px-8 pb-8 bg-cyan-50 text-2xl">
+      <body className=" w-full min-h-vh px-8 pb-8 bg-cyan-50 text-2xl">
         {children}
       </body>
     </html>

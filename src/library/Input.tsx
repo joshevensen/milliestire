@@ -191,10 +191,7 @@ const LibInput: React.FC<props> = ({
   return (
     <div className={fieldClasses}>
       {label && (
-        <label
-          className="block text-sm italic sm:text-base md:mb-1"
-          htmlFor={name}
-        >
+        <label className="block italic mb-1" htmlFor={name}>
           {label}
         </label>
       )}

@@ -1,9 +1,10 @@
 "use client";
 
+import LibDivider from "@/library/Divider";
 import { useState } from "react";
 
 export default function FuneralDetails() {
-  const [showDetails, setShowDetails] = useState(false);
+  const [showDetails, setShowDetails] = useState(true);
 
   if (!showDetails) {
     return (
@@ -43,9 +44,9 @@ export default function FuneralDetails() {
           <p>Harvey, LA 70058</p>
           <p>(504) 367-3920</p>
         </div>
-        <div className="py-6">
-          <hr className="border-cyan-400" />
-        </div>
+
+        <LibDivider />
+
         <p>Millie will be laid to rest from 2:00-3:00 PM.</p>
         <div className="text-center">
           <p className="font-bold">Westlawn Memorial Park & Mausoleum</p>
