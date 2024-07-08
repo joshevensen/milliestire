@@ -10,6 +10,9 @@ import { cache } from "react";
  */
 export const MessageGetAll = cache(async () => {
   return await utils.db.message.findMany({
+    where: {
+      name: { not: "Test" },
+    },
     orderBy: { createdAt: "asc" },
   });
 });
